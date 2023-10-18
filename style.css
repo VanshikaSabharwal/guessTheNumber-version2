@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(snow4.jpg);
+    background-repeat: no-repeat;
+ background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: 'Heebo', sans-serif;
+}
+.container {
+    font-size: 2rem;
+    gap: 2rem;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    margin: 2rem 5rem;
+    color: #403838;
+
+}
+/* this will display underline transition on title  */
+
+/* #title{
+    /* text-decoration: underline;
+    font-size: 3rem;
+    cursor: pointer;
+    position: relative;
+    width: max-content;
+
+
+}
+#title::after{
+content: "";
+position: absolute;
+bottom: -5px;
+height: 4px;
+left: 0;
+width: 100%;
+background-color: #403838;
+transition: 0.3s;
+transition-timing-function: ease-in-out;
+transform: scaleX(0);
+
+}
+#title:hover::after{
+    transform: scaleX(1);
+}  */
+
+
+
+/* btn   */
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* input  */
+#input {
+    background-color: rgb(249 218 249);
+    color: maroon;
+    border: 2px solid rgb(42 37 37 / 82%);
+    border-radius: 11px;
+    width: 11rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #624056;
+cursor: pointer;
+
+}
+#btn {
+    height: 2rem;
+    width: 6rem;
+    background-color: rgb(224 207 239);
+    color: rgb(58, 52, 52);
+    font-size: 1.1rem;
+    border: 2px solid rgb(42 37 37 / 82%);
+    border-radius: 7px;
+    margin-right: 1.2rem;
+    cursor: pointer;
+}
+#btn:hover{
+    background: rgb(218, 166, 183);
+    color: white;
+}
+#restartBtn{
+    background: none;
+    border: none;
+    height: 2rem;
+    width: 2rem;  
+cursor: pointer;
+
+}
+#restartBtn:hover{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #6c5b5b94;
+}
+
+#restartBtn img{
+  width: 1.2rem;
+  border: none;
+}
+
+
+@media (max-width:500px) {
+.container{
+    font-size: 1.2rem;
+    margin: 1rem 2rem;
+
+} 
+}
+@media (min-width:500px) {
+    .container{
+        font-size: 1.5rem;
+    }
+}
